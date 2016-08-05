@@ -1,11 +1,11 @@
 function randomPassword() {
-	  var length = 4;
-    var charsSpecial = "!@#$%^&*()-+<>";
-    var charsCaps   = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    var charsNums    = "1234567890";
+	var length = 4;
+    	var charsSpecial = "!@#$%^&*()-+<>";
+    	var charsCaps   = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    	var charsNums    = "1234567890";
     
-    //generate a random base password
-    var pass = Math.random().toString(36).slice(-8);
+    	//generate a random base password
+    	var pass = Math.random().toString(36).slice(-8);
     
   	//now insert a random character at a random point in the string
   	//
